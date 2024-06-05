@@ -5,3 +5,19 @@
 body{
   background-color: #000300;
 }
+
+.socials {
+  @apply py-3 mt-6 bg-white text-[#000300] flex flex-col items-center rounded-md cursor-pointer space-y-1 shadow-md shadow-gray-200;
+}
+.socials-icon {
+  @apply text-lg md:text-xl
+}
+.socials:hover {
+  @apply bg-[#000300] text-white
+}
+.skills-container {
+  @apply bg-white rounded-md flex flex-col justify-center items-center p-4 shadow-md shadow-gray-200 cursor-pointer h-[136px] ;
+}
+.skills-text {
+  @apply text-[#000300] mt-2 font-semibold text-sm md:text-base;
+}

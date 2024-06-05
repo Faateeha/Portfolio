@@ -15,7 +15,7 @@ function App() {
   
   return (
     <BrowserRouter>
-    <main>
+    <main className="text-white h-full w-full font-body">
      <Navbar />
       <Home />
       <About />
