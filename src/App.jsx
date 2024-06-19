@@ -5,6 +5,7 @@ import Skills from "./components/Skills"
 import Projects from "./components/Projects"
 import Contact from "./components/Contact"
 import Socials from "./components/Socials"
+import Footer from "./components/Footer"
 
 
 import Navbar from "./components/Navbar"
@@ -23,6 +24,7 @@ function App() {
       <Skills />
       <Projects />
       <Contact />
+      <Footer />
 
     </main>
     </BrowserRouter>

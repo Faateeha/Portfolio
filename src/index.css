@@ -21,3 +21,6 @@ body{
 .skills-text {
   @apply text-[#000300] mt-2 font-semibold text-sm md:text-base;
 }
+.form-input {
+  @apply rounded p-1 md:p-2 outline-none;
+}
