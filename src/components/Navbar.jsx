@@ -7,6 +7,11 @@ function Navbar() {
 
   const handleNav = () => {
     setNav(!nav);
+    if (!nav) {
+      document.body.style.overflow = "hidden"; // Disable scrolling
+    } else {
+      document.body.style.overflow = "auto"; // Enable scrolling
+    }
   };
   return (
     //Desktop view
