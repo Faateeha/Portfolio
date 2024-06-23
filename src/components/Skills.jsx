@@ -48,10 +48,11 @@ function Skills () {
                 <img src={typescript} alt="typescript-img" className="h-12 md:h-20" />
                 <p className="skills-text">TYPESCRIPT</p>
             </div>
-            <div className="skills-container" data-aos="fade-up-left">
+            {/*<div className="skills-container" data-aos="fade-up-left">
                 <img src={nextjs} alt="nextjs-img" className="h-12 md:h-20" />
                 <p className="skills-text">NEXT JS</p>
-            </div>
+            </div>*/}
+            
             <div className="skills-container" data-aos="zoom-out-down">
                 <img src={chakra} alt="chakra-img" className="h-12 md:h-20" />
                 <p className="skills-text">CHAKRA</p>
