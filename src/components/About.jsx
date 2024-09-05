@@ -32,7 +32,7 @@ function About() {
           </p>
           
         </div>
-        <p className="max-w-fit justify-start border mx-14 md:mx-20 rounded-md p-2 shadow-2xl">
+        <p className="max-w-fit justify-start border mx-14 md:mx-20 rounded-md p-2 shadow-2xl " data-aos="zoom-in-right">
             <Link smooth to={"#contact"}>
               Contact me
             </Link>
