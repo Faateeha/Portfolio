@@ -24,3 +24,10 @@ body{
 .form-input {
   @apply rounded p-1 md:p-2 outline-none;
 }
+.projects-container {
+  @apply bg-purple-100 shadow shadow-[#ccc8cd] flex flex-col justify-between rounded-md pb-4 cursor-pointer;
+}
+
+.works-pill {
+  @apply bg-purple-200 text-purple-800 border border-purple-400 px-2 py-1 rounded text-sm md:text-base;
+}

@@ -14,7 +14,7 @@ function Socials() {
 
    return (
     <section className="mt-20 py-4" data-aos="fade-up">
-        <h2 className="text-base md:text-2xl ml-14 md:ml-20 font-semibold">Connect with me on:</h2>
+        <h2 className="text-base md:text-2xl font-semibold flex justify-center">Connect with me on:</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-x-10 md:gap-x-20 md:gap-y-0 px-14 md:px-20">
             <a href="mailto:fathiaomolara02@gmail.com" target="_blank" className="socials" data-aos="fade-right"><MdOutlineMailOutline className="socials-icon" /><p>Email</p></a>
 

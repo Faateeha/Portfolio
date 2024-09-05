@@ -1,25 +1,47 @@
 import { useEffect } from "react";
-import {motion} from "framer-motion";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { HashLink as Link } from "react-router-hash-link";
 
-function About(){
-    useEffect(() => {
-        Aos.init({
-            duration: 1000
-        })
+function About() {
+  useEffect(() => {
+    Aos.init({
+      duration: 1000,
     });
+  });
 
-    return(
-        <section className="pt-16" id="about">
-            <div>
-                <h1 className="inline font-bold text-2xl md:text-xl mt-3 ml-14 md:ml-20">About</h1>
-                <div className="flex-col md:flex md:flex-row items-center md:justify-between mx-14 md:mx-20 py-6" data-aos="zoom-in">
-                    <p className="w-full md:w-[50%]" data-aos="zoom-in-right">I'm Adeyemi Fathia, a frontend developer based in Lagos, Nigeria. With a passion for creating engaging user experiences, I specialize in crafting intuitive interfaces that make technology accessible to all. Excited to embark on new projects and opportunities in the dynamic world of web development!I'm open to connecting, working, and collaborating on exciting projects with others.</p>
-                </div>
-            </div>
-        </section>
-    )
+  return (
+    <section className="pt-16" id="about">
+      <div>
+        <h1 className="flex justify-center font-bold text-2xl md:text-3xl mt-3 ">
+          About
+        </h1>
+        <div
+          className="flex-col md:flex md:flex-row justify-center  mx-14 md:mx-20 py-6 md:text-lg"
+          data-aos="zoom-in"
+        >
+          <p className="w-full " data-aos="zoom-in-right">
+            As a frontend developer, I craft intuitive interfaces that make
+            technology accessible to all. With a passion for creating seamless
+            user experiences, I specialize in building engaging web applications
+            that drive results. With over one year of experience and expertise
+            in Reactjs, vue.js, Nextjs, typescript, I&apos;ve delivered some
+            innovative projects that push the boundaries of web development.
+            Lets connect and build something amazing together.
+            
+          </p>
+          
+        </div>
+        <p className="max-w-fit justify-start border mx-14 md:mx-20 rounded-md p-2 shadow-2xl">
+            <Link smooth to={"#contact"}>
+              Contact me
+            </Link>
+          </p>
+        
+      </div>
+
+    </section>
+  );
 }
 
 export default About;

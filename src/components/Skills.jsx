@@ -19,8 +19,8 @@ function Skills () {
 
    return (
     <section className="pt-24" data-aos="fade-up" id="skills">
-        <div className="mt-3 ml-14 md:ml-20">
-            <h1 className="font-bold text-2xl md:text-xl inline ">Skills</h1>
+        <div className="flex flex-col justify-center items-center mx-14">
+            <h1 className="font-bold text-lg md:text-2xl  ">Skills</h1>
             <p className="text-base md:text-lg mt-2">Technologies I currently work with:</p>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-y-6 gap-x-10 py-8 mx-14 md:mx-20">
@@ -48,10 +48,10 @@ function Skills () {
                 <img src={typescript} alt="typescript-img" className="h-12 md:h-20" />
                 <p className="skills-text">TYPESCRIPT</p>
             </div>
-            {/*<div className="skills-container" data-aos="fade-up-left">
+            <div className="skills-container" data-aos="fade-up-left">
                 <img src={nextjs} alt="nextjs-img" className="h-12 md:h-20" />
                 <p className="skills-text">NEXT JS</p>
-            </div>*/}
+            </div>
             
             <div className="skills-container" data-aos="zoom-out-down">
                 <img src={chakra} alt="chakra-img" className="h-12 md:h-20" />
