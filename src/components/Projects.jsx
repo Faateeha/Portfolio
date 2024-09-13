@@ -36,12 +36,12 @@ function Project() {
               </span>
             </div>
             <span className='mt-3 mx-2 pt-2 border-t border-black flex items-center justify-between text-black'>
-              <Link to='https://github.com/Faateeha/my-carefinder' target='blank'>
+              <Link to='https://github.com/Faateeha/my-carefinder' >
                 <FaGithub className="text-lg" />
               </Link>
-              <Link to='my-carefinder-r4vv.vercel.app/' >
+              <a href='my-carefinder-r4vv.vercel.app/' target='blank'>
                 <FaLink className="text-lg" />
-              </Link>
+              </a>
             </span>
           </div>
           <div className="projects-container" data-aos="fade-down">
@@ -59,9 +59,9 @@ function Project() {
               <Link to='https://github.com/Faateeha/GithubRepo-vue' >
                 <FaGithub className="text-lg" />
               </Link>
-              <Link to='vue-github-repo-three.vercel.app/' target='blank' >
+              <a href='vue-github-repo-three.vercel.app/' target='blank' >
                 <FaLink className="text-lg" />
-              </Link>
+              </a>
             </span>
           </div>
 
