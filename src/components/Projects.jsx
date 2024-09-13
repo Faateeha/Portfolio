@@ -39,7 +39,8 @@ function Project() {
               <Link to='https://github.com/Faateeha/my-carefinder' >
                 <FaGithub className="text-lg" />
               </Link>
-              <a href='my-carefinder-r4vv.vercel.app/' target='blank'>
+              <a href='https://my-carefinder-r4vv.vercel.app/' target="_blank"
+          rel="noopener noreferrer">
                 <FaLink className="text-lg" />
               </a>
             </span>
@@ -59,7 +60,9 @@ function Project() {
               <Link to='https://github.com/Faateeha/GithubRepo-vue' >
                 <FaGithub className="text-lg" />
               </Link>
-              <a href='vue-github-repo-three.vercel.app/' target='blank' >
+              <a href="https://vue-github-repo-three.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer" >
                 <FaLink className="text-lg" />
               </a>
             </span>
