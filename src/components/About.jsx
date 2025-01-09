@@ -32,11 +32,20 @@ function About() {
           </p>
           
         </div>
-        <p className="max-w-fit justify-start border mx-14 md:mx-20 rounded-md p-2 shadow-2xl " data-aos="zoom-in-right">
+        <div className="flex justify-between">
+        <p className="max-w-fit  border mx-14 md:mx-20 rounded-md p-2 shadow-2xl hover:bg-white hover:text-black " data-aos="zoom-in-right">
             <Link smooth to={"#contact"}>
               Contact me
             </Link>
           </p>
+        <p className="max-w-fit  border mx-14 md:mx-20 rounded-md p-2 shadow-2xl hover:bg-white hover:text-black " data-aos="zoom-in-right">
+            <a href="/Adeyemi-CV.pdf" download>
+              <button>Download CV</button>
+            </a>
+          </p>
+        </div>
+        
+        
         
       </div>
 
