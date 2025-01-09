@@ -39,7 +39,7 @@ function About() {
             </Link>
           </p>
         <p className="max-w-fit  border mx-14 md:mx-20 rounded-md p-2 shadow-2xl hover:bg-white hover:text-black " data-aos="zoom-in-right">
-            <a href="/Adeyemi-CV.pdf" download>
+            <a href="/Adeyemi-CV.pdf" download="Adeyemi-CV">
               <button>Download CV</button>
             </a>
           </p>
