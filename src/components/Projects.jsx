@@ -6,7 +6,8 @@ import { FaGithub, FaLink } from 'react-icons/fa6';
 import Carefinder from "../assets/carefinder-img1.png";
 import GithubRepo from "../assets/vue-img1.png";
 import Cryptify from "../assets/cryptify1.png";
-import Renergy from "../assets/renergy.png"
+import Renergy from "../assets/renergy.png";
+import Ink from "../assets/ink.png";
 
 function Project() {
   useEffect(() => {
@@ -110,6 +111,31 @@ function Project() {
                 <FaGithub className="text-lg" />
               </Link>
               <a href="https://www.renergyhub.com.ng/"
+          target="_blank"
+          rel="noopener noreferrer" >
+                <FaLink className="text-lg" />
+              </a>
+            </span>
+          </div>
+          <div className="projects-container" data-aos="fade-up">
+            <img src={Ink} alt="inklink-img" className="mb-4 rounded-md rounded-b-none w-full h-52 object-center object-cover" />
+            <div>
+              <h1 className="text-base md:text-lg font-semibold mb-1 px-2 text-black">Inklink</h1>
+              <p className="mb-3 px-2 text-sm md:text-base text-black">Inklink is an app that allows users to read and write posts. It provides a seamless platform for sharing ideas, exploring diverse content, and connecting with a community of writers and readers.</p>
+              <span className="flex flex-wrap gap-2 px-2">
+                <p className="works-pill">Next.js</p>
+                <p className="works-pill">Tailwindcss</p>
+                <p className="works-pill">Typescript</p>
+                <p className="works-pill">Chakra ui</p>
+                <p className="works-pill">firebase</p>
+                
+              </span>
+            </div>
+            <span className='mt-3 mx-2 border-t border-black pt-2 flex items-center justify-between text-black'>
+              <Link to='https://github.com/Faateeha/Inklink' >
+                <FaGithub className="text-lg" />
+              </Link>
+              <a href="https://inkliink--three.vercel.app/"
           target="_blank"
           rel="noopener noreferrer" >
                 <FaLink className="text-lg" />
